@@ -7,7 +7,7 @@ AWS Lambda alarm that sends SNS custom email notifications every monday to alert
 # DynamoDB Schema:
 ![DynamoDB Schema](/.attachments/Dynamo-schema.png)
 
-# NOTE: THIS Project takes advantage of a pre-created sandbox vpc and will use data resources to pull necessary data.
+# NOTE: This project takes advantage of a pre-created sandbox vpc and will use data resources to pull necessary data.
 
 # Directory Tree Structure:
 ```
