@@ -68,5 +68,5 @@ Yaml manifest configuration files are included which are compatible with the Mic
 # For more information on main components
 * DynamoDB core components documentation: 
    *  https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html
-* Python sdk: 
+* Python AWS SDK documentation: 
    *  https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
