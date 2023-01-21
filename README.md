@@ -2,7 +2,7 @@
 ![Emails are raining](/.attachments/emails.gif)
 
 # Lambda alarm Introduction
-AWS Lambda alarm that sends SNS custom email notifications every monday to alert IT users oncall shift change. The lambda is triggered by a cron job using aws eventbridge. Lambda executes custom python code that interacts with aws dynamodb to retrieve state and user data.
+AWS Lambda alarm that sends SNS custom email notifications every monday to alert IT users oncall shift change. The lambda is triggered by a cron job using aws eventbridge. Lambda executes custom python code that interacts with aws dynamodb to retrieve state and user data. Python code is executed and to interact with aws resources by using the aws sdk for python.
 
 # DynamoDB Schema:
 ![DynamoDB Schema](/.attachments/Dynamo-schema.png)
