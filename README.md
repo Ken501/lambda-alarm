@@ -21,7 +21,7 @@ Yaml manifest configuration files are included which are compatible with the Mic
 # DynamoDB Schema:
 ![DynamoDB Schema](/.attachments/Dynamo-schema.png)
 
-# NOTE: This project takes advantage of a pre-created sandbox vpc and will use data resources to pull necessary data.
+# NOTE: This project takes advantage of a pre-created sandbox vpc and will use Terraform data resource blocks to pull necessary data.
 
 # Directory Tree Structure:
 ```
