@@ -30,3 +30,51 @@ variable "additional_tags" {
   default     = {}
   type        = map(string)
 }
+
+variable "vpc_id" {
+  description = "AWS Sandbox VPC"
+}
+
+variable "backend_bucket" {
+  description = "Terraform backend for tf.state files"
+}
+
+// DynamoDB variables 
+
+variable "link" {
+  description = "Oncall re-direct link"
+}
+
+variable "hash_key" {
+  description = "DynamoDB partition key"
+  default = "index"
+}
+
+variable "range_key" {
+  description = "DynamoDB range key"
+  default = "turn"
+}
+
+variable "user1" {
+  description = "User for item 1"
+}
+
+variable "email1" {
+  description = "Email for item 1"
+}
+
+variable "user2" {
+  description = "User for item 2"
+}
+
+variable "email2" {
+  description = "Email for item 2"
+}
+
+variable "user3" {
+  description = "User for item 3"
+}
+
+variable "email3" {
+  description = "Email for item 3"
+}
